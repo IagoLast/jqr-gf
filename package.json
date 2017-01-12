@@ -1,0 +1,26 @@
+{
+  "name": "jqr-gf",
+  "version": "0.0.0",
+  "description": "Node implementation of the GF(2^8)",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha",
+    "doc": "./node_modules/.bin/jsdoc src/**.js -d doc"
+  },
+  "keywords": [
+    "GF",
+    "galois",
+    "field",
+    "galois"
+  ],
+  "author": "@iagolast",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "jsdoc": "^3.4.2",
+    "mocha": "^3.1.2"
+  },
+  "dependencies": {
+    "jqr-poly": "0.0.2"
+  }
+}
