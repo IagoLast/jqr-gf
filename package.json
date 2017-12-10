@@ -21,6 +21,6 @@
     "mocha": "^3.1.2"
   },
   "dependencies": {
-    "jqr-poly": "0.0.2"
+    "jqr-poly": "^1.1.0"
   }
 }
